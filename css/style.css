@@ -1,0 +1,246 @@
+
+:root{
+    --grad1:linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    --grad2: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+body{
+    background: black url(/img/bgc.png) center/cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.wrapper{
+    background: url(/img/main-screen__bgc.png) top/cover;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    margin: 0 80px;
+}
+.nav_menu{
+    margin: 0 200px 0 auto;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: var(--grad2);
+    text-align: center;
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    box-shadow:#C89AFC 0 0 10px ;
+    transition: all 0.2s linear;
+}
+
+.menu a{
+    display: inline;
+    margin-right: 50px;
+}
+.conteiner{
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header_discription{
+    margin-top: 190px;;   
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 50px;
+}
+.timer{
+    display: flex;
+    text-align: center;
+    margin-bottom: 218px;
+}
+.time-item{
+    margin-right: 30px;
+    background-color: #121212;
+    padding: 20px 30px;
+}
+.time{
+    opacity: 0.4;
+}
+.course_block{
+    background-color: #121212;
+}
+.btn2{
+    width: 169px;
+    font-weight: 700;
+    background: var(--grad1);
+}
+.course_inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+    align-items: center;
+}
+.stud-items{
+    display: flex;
+    width: 251px;
+    justify-content: space-between;
+}
+.discription{
+    opacity: 0.4;
+    line-height: 160%;
+}
+.discription_value{
+    font-weight: bold;
+}
+.money{
+    width: 713px;
+}
+.line{
+    height: 10px;
+    width: 100%;
+    background: var(--grad1);
+    border-radius: 50px;
+    margin: 8px 0;
+}
+.max-min-money{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.4;
+}
+.content_block{
+    margin: 180px 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.abouts{
+    margin-left: 134px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+.discription_text{
+    max-width: 636px;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+    margin-top: 45px;
+    opacity: 0.4;
+}
+.content_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.content_title>img{
+    margin-right: 20px;
+}
+.shkala{
+    display: flex;
+    margin-top: 70px;
+}
+.shkala_item{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.pr{
+    width: 100%;  
+    margin: 20px 0;
+    background: var(--grad2);
+}
+.pr100{
+    height: 100px;
+}
+.pr75{
+    height: 75px;
+    transform: rotate(180deg);
+}
+.pr50{
+    height: 50px;
+}
+.pri{
+    height: 25px;
+    transform: rotate(180deg);
+}
+.info_block{
+    text-align: center;
+}
+.info_block>.title,
+.form_block>.title{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.info_items{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 100px;
+}
+.info_item{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.info_title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 160%;
+    margin: 50px 0 30px;
+}
+.info_block .discription{
+    opacity: .7;
+    line-height: 160%;
+}
+.form_block{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 30px;
+}
+input{
+    border: none;
+    color: inherit;
+    height: 48px;
+    font-size: 16px;
+    z-index: 2;
+}
+.input{
+    background-color: rgba(255, 255, 255, 0.253);
+    color: white;
+    width: 30%;
+    margin-right: -20px;
+    border-radius: 50px 0 0 50px;
+    padding-left: 30px;
+    z-index: 1;
+}
+.form_block img{
+    height: 30px;
+}
+.form_block>.btn{
+    display: inline-flex;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 15px;
+}
+footer{
+    text-align: center;
+    margin: -120px 0 50px ;
+}
+
