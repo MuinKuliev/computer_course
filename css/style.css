@@ -14,13 +14,13 @@ a{
 }
 
 body{
-    background: black url(/img/bgc.png) center/cover;
+    background: black url(../img/bgc.png) center/cover;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 16px;
 }
 .wrapper{
-    background: url(/img/main-screen__bgc.png) top/cover;
+    background: url(../img/main-screen__bgc.png) top/cover;
 }
 .main-header{
     display: flex;
