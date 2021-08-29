@@ -92,6 +92,7 @@ body{
     display: flex;
     width: 251px;
     justify-content: space-between;
+    align-items: center;
 }
 .discription{
     opacity: 0.4;
@@ -125,7 +126,7 @@ body{
     flex-wrap: wrap;
 }
 .abouts{
-    margin-left: 134px;
+    margin-left: 10px;
 }
 .title{
     font-size: 48px;
@@ -159,7 +160,7 @@ body{
 
 }
 .pr{
-    width: 100%;  
+    width: 101%;  
     margin: 20px 0;
     background: var(--grad2);
 }
@@ -245,5 +246,18 @@ input{
 footer{
     text-align: center;
     margin: -120px 0 50px ;
+}
+@media screen and (max-width: 900px) {
+    .nav_menu{
+        margin: 0 100px 0 auto;
+    }
+}
+@media screen and (max-width: 825px) {
+    .info_item{
+        width: 45%;
+    }
+    .nav_menu{
+        display: none;
+    }
 }
 
