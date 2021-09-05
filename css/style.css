@@ -114,6 +114,7 @@ body{
 }
 .timer{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 .time-item{
@@ -447,6 +448,18 @@ footer{
     }
     .about img{
         width: 70vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header_discription{
+        font-size: 48px;
+    }
+    .time-item{
+        margin-right: 10px;
+        padding: 10px 15px;
+    }
+    .time{
+        opacity: 0.4;
     }
 }
 
