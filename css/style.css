@@ -435,7 +435,10 @@ footer{
 }
 @media screen and (max-width: 700px) {
     .shkala .title{
-        font-size: 34px;
+        font-size: 24px;
+    }
+    .shkala .discription{
+        font-size: 14px;
     }
     .pr{
         height: 50px;
@@ -460,6 +463,9 @@ footer{
     }
     .time{
         opacity: 0.4;
+    }
+    .title{
+        font-size: 32px;
     }
 }
 
