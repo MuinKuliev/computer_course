@@ -8,14 +8,34 @@
     <title>Computer Course</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="main-header">
+    <header class="main_header">
+        <div class="header_inner">
+            <a href="#">
+                <img src="./img/Group.png" alt="Logo">
+            </a>
+            <nav class="nav_menu">
+                <div class="menu">
+                    <a href="#">Главная</a>
+                    <a href="#">Курсы</a>
+                    <a href="#">Расписание</a>
+                    <a href="#teachers">Преподователи</a>
+                    <a href="#forms">Рассылка</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </nav>
+            <a class="btn" href="#">Зайти в кабинет</a>
+            <button class="burger">
+                <img src="./img/icon/Hamburger_icon.svg.png" alt="">
+            </button>
+        </div>
+    </header>
+    <header class="header">
+        <div class="top_header">
+            <div class="header_inner">
                 <a href="#">
                     <img src="./img/Group.png" alt="Logo">
                 </a>
@@ -24,8 +44,8 @@
                         <a href="#">Главная</a>
                         <a href="#">Курсы</a>
                         <a href="#">Расписание</a>
-                        <a href="#">Преподователи</a>
-                        <a href="#">Рассылка</a>
+                        <a href="#teachers">Преподователи</a>
+                        <a href="#forms">Рассылка</a>
                         <a href="#">Контакты</a>
                     </div>
                 </nav>
@@ -34,6 +54,8 @@
                     <img src="./img/icon/Hamburger_icon.svg.png" alt="">
                 </button>
             </div>
+        </div>
+        <div class="block">
             <div class="conteiner">
                 <h1 class="header_discription">Первый курс<br>
                     по компьютерной сборке</h1>
@@ -56,7 +78,8 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+
         <div class="course_block">
             <div class="conteiner">
                 <div class="course_inner">
@@ -85,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <main class="main">
         <div class="conteiner">
             <div class="content_block">
@@ -203,39 +226,57 @@
                 </div>
             </div>
             <div class="content_block">
-                <div class="teacher_block"></div>
-                <div class="content_title title">
-                    Ваши преподаватели
+                <div class="company_block">
+                    <div class="content_title title">
+                        Партнеры - топовые бренды
+                    </div>
+                    <ul class="company_grid">
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                        <li class="company_item"><img src="./img/icon/company.png" alt=""></li>
+                    </ul>
                 </div>
-                <div class="teachers">
-                    <div class="teacher_item">
-                        <img class="teacher_photo" src="./img/teacher-1.png" alt="">
-                        <h3 class="teaher_name">Дмитрий Иванов</h3>
-                        <p class="teacher_discription">
-                            Специалист по видеокартам
-                        </p>
-                        <button class="teacher_btn">Биография</button>
+            </div>
+            <div class="content_block">
+                <div class="teacher_block" id="teachers">
+                    <div class="content_title title">
+                        Ваши преподаватели
                     </div>
-                    <div class="teacher_item">
-                        <img class="teacher_photo" src="./img/teacher-2.png" alt="">
-                        <h3 class="teaher_name">Дмитрий Иванов</h3>
-                        <p class="teacher_discription">
-                            Специалист по видеокартам
-                        </p>
-                        <button class="teacher_btn">Биография</button>
-                    </div>
-                    <div class="teacher_item">
-                        <img class="teacher_photo" src="./img/teacher-3.png" alt="">
-                        <h3 class="teaher_name">Дмитрий Иванов</h3>
-                        <p class="teacher_discription">
-                            Специалист по видеокартам
-                        </p>
-                        <button class="teacher_btn">Биография</button>
+                    <div class="teachers">
+                        <div class="teacher_item">
+                            <img class="teacher_photo" src="./img/teacher-1.png" alt="">
+                            <h3 class="teaher_name">Дмитрий Иванов</h3>
+                            <p class="teacher_discription">
+                                Специалист по видеокартам
+                            </p>
+                            <button class="teacher_btn">Биография</button>
+                        </div>
+                        <div class="teacher_item">
+                            <img class="teacher_photo" src="./img/teacher-2.png" alt="">
+                            <h3 class="teaher_name">Дмитрий Иванов</h3>
+                            <p class="teacher_discription">
+                                Специалист по видеокартам
+                            </p>
+                            <button class="teacher_btn">Биография</button>
+                        </div>
+                        <div class="teacher_item">
+                            <img class="teacher_photo" src="./img/teacher-3.png" alt="">
+                            <h3 class="teaher_name">Дмитрий Иванов</h3>
+                            <p class="teacher_discription">
+                                Специалист по видеокартам
+                            </p>
+                            <button class="teacher_btn">Биография</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="content_block">
-                <div class="form_block">
+                <div class="form_block" id="forms">
                     <h1 class="title">Статьи каждую неделю</h1>
                     <p class="discription">
                         Больше 90% учеников прошли полный курс и смогли <br>собрать свой первый компютр.
@@ -255,6 +296,7 @@
     <footer>
         Developer Kuliev Muin
     </footer>
+    <script src="./script/app.js"></script>
 </body>
 
 </html>
